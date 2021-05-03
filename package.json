@@ -1,0 +1,36 @@
+{
+  "name": "simple-react-template",
+  "version": "0.1.0",
+  "description": "Simple react template using Snowpack",
+  "homepage": ".",
+  "main": "./src/index.js",
+
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+
+  "keywords": [
+    "react",
+    "template",
+    "snowpack",
+    "react-template",
+    "javascript",
+    "jsx",
+    "js"
+  ],
+
+  "author": "Paul Le Gall",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simple-react-template.git"
+  },
+  
+  "dependencies": {
+    "@snowpack/plugin-webpack": "^2.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "snowpack": "^3.3.7"
+  }
+}
