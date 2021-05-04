@@ -8,7 +8,6 @@
     "start": "snowpack dev",
     "build": "snowpack build"
   },
-
   "keywords": [
     "react",
     "template",
@@ -18,18 +17,18 @@
     "jsx",
     "js"
   ],
-
   "author": "Paul Le Gall",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/simple-react-template.git"
   },
-  
   "dependencies": {
-    "@snowpack/plugin-webpack": "^2.3.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-webpack": "^2.3.1",
     "snowpack": "^3.3.7"
   }
 }
