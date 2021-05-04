@@ -2,9 +2,8 @@
   "name": "simple-react-template",
   "version": "0.1.0",
   "description": "Simple react template using Snowpack",
-  "homepage": ".",
   "main": "./src/index.js",
-
+  "homepage": ".",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build"
